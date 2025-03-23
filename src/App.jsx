@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import WhyChooseUs from "./components/WhyChooseUs";
+import OurServicesSection from "./components/OurServicesSection";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -9,6 +10,7 @@ function App() {
     <>
       <div>
         <WhyChooseUs />
+        <OurServicesSection />
       </div>
     </>
   );
