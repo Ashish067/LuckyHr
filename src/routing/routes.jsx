@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import ContactUs from "../pages/contact/ContactUs";
 import Layout from "../components/Layout";
-import Navbar from "../components/header/Navbar";
 import AboutLuckyHr from "../pages/AboutLuckyHr/AboutLuckyHr";
 import MessageFromChairman from "../pages/messagefromchairman/MessageFromChairman";
 import OurTeam from "../pages/ourteam/OurTeam";
@@ -11,12 +10,13 @@ import DemandCertificates from "../pages/AboutLuckyHr/DemandCertificates";
 import OurAssociates from "../pages/ourassociates/OurAssociates";
 import Gallery from "../pages/gallery/Gallery";
 import Ads from "../pages/ads/Ads";
+import Home from "../pages/home/Home";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
     children: [
-      { index: "", element: <Navbar /> },
+      { index: true, element: <Home /> },
       { path: "AboutUs/AboutLuckyHr", element: <AboutLuckyHr /> },
       {
         path: "AboutUs/MessageFromChairman",

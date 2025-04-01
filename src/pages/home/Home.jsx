@@ -4,6 +4,7 @@ import DropYourCV from "../../components/DropYourCV";
 import DiscoverJobsSection from "../../components/DiscoverJobs/DiscoverJobsSection";
 import WhyChooseUs from "../../components/WhyChooseUs";
 import OurServicesSection from "../../components/OurServicesSection";
+import Layout from "../../components/Layout";
 
 const Home = () => {
   return (
