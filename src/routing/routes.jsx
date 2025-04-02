@@ -1,16 +1,17 @@
 import { createBrowserRouter } from "react-router-dom";
-import ContactUs from "../pages/contact/ContactUs";
+import ContactUs from "../pages/contactUs/ContactUs";
 import Layout from "../components/Layout";
-import AboutLuckyHr from "../pages/AboutLuckyHr/AboutLuckyHr";
-import MessageFromChairman from "../pages/messagefromchairman/MessageFromChairman";
-import OurTeam from "../pages/ourteam/OurTeam";
-import CompanyCertificates from "../pages/AboutLuckyHr/CompanyCertificates";
-import CompanyBrochure from "../pages/AboutLuckyHr/CompanyBrochure";
-import DemandCertificates from "../pages/AboutLuckyHr/DemandCertificates";
-import OurAssociates from "../pages/ourassociates/OurAssociates";
-import Gallery from "../pages/gallery/Gallery";
+import MessageFromChairman from "../pages/aboutUs/MessageFromChairman";
+import CompanyCertificates from "../pages/aboutUs/companyDocuments/CompanyCertificates";
+import CompanyBrochure from "../pages/aboutUs/companyDocuments/CompanyBrochure";
+import DemandCertificates from "../pages/aboutUs/companyDocuments/DemandCertificates";
 import Ads from "../pages/ads/Ads";
 import Home from "../pages/home/Home";
+import OurRecruitmentProcess from "../pages/EmployerZone/OurRecruitmentProcess";
+import AboutLuckyHr from "../pages/aboutUs/AboutLuckyHr";
+import OurTeam from "../pages/aboutUs/OurTeam";
+import OurAssociates from "../pages/aboutUs/OurAssociates";
+import Galleries from "../pages/aboutUs/Galleries";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -41,12 +42,16 @@ const router = createBrowserRouter([
       },
       {
         path: "AboutUs/Galleries",
-        element: <Gallery />,
+        element: <Galleries />,
       },
+      {
+        path: "/EmployerZone/OurRecruitmentProcess",
+        element: <OurRecruitmentProcess />,
+      },
+      { path: "/ContactUs", element: <ContactUs /> },
+      { path: "/Ads", element: <Ads /> },
     ],
   },
-  { path: "/ContactUs", element: <ContactUs /> },
-  { path: "/Ads", element: <Ads /> },
 ]);
 
 export default router;
