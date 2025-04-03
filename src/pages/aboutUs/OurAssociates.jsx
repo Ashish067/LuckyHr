@@ -1,7 +1,12 @@
 import React from "react";
+import PageHeader from "../../components/BreadCrumbsWrapper/PageHeader";
 
 const OurAssociates = () => {
-  return <div>OurAssociates</div>;
+  return (
+    <>
+      <PageHeader title={"Our Associates"} />
+    </>
+  );
 };
 
 export default OurAssociates;
