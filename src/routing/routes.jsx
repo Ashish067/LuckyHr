@@ -12,6 +12,7 @@ import AboutLuckyHr from "../pages/aboutUs/AboutLuckyHr";
 import OurTeam from "../pages/aboutUs/OurTeam";
 import OurAssociates from "../pages/aboutUs/OurAssociates";
 import Galleries from "../pages/aboutUs/Galleries";
+import OurCoverage from "../pages/employerZone/OurCoverage";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       },
       { path: "/ContactUs", element: <ContactUs /> },
       { path: "/Ads", element: <Ads /> },
+      {
+        path: "/EmployersZone/OurCoverage",
+        element: <OurCoverage />,
+      },
     ],
   },
 ]);

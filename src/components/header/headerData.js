@@ -68,7 +68,7 @@ export const navData = [
       },
       {
         subNavHeading: "Our Coverage",
-        link: "/EmployerZone/OurCoverage",
+        link: "/EmployersZone/OurCoverage",
       },
       {
         subNavHeading: "Our Valued Cliets",
