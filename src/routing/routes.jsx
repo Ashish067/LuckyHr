@@ -13,6 +13,7 @@ import OurTeam from "../pages/aboutUs/OurTeam";
 import OurAssociates from "../pages/aboutUs/OurAssociates";
 import Galleries from "../pages/aboutUs/Galleries";
 import OurCoverage from "../pages/employerZone/OurCoverage";
+import IndustriesWeServe from "../pages/employerZone/IndustriesWeServe";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: "/EmployersZone/OurCoverage",
         element: <OurCoverage />,
+      },
+      {
+        path: "/EmployersZone/IndustriesWeServe",
+        element: <IndustriesWeServe />,
       },
     ],
   },

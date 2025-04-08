@@ -64,7 +64,7 @@ export const navData = [
     lvlTwo: [
       {
         subNavHeading: "Industries We Serve",
-        link: "/EmployerZone/IndustriesWeServe",
+        link: "/EmployersZone/IndustriesWeServe",
       },
       {
         subNavHeading: "Our Coverage",
