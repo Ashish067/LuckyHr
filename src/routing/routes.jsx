@@ -14,6 +14,7 @@ import OurAssociates from "../pages/aboutUs/OurAssociates";
 import Galleries from "../pages/aboutUs/Galleries";
 import OurCoverage from "../pages/employerZone/OurCoverage";
 import IndustriesWeServe from "../pages/employerZone/IndustriesWeServe";
+import OurValuedClients from "../pages/employerZone/OurValuedClients";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
       {
         path: "/EmployersZone/IndustriesWeServe",
         element: <IndustriesWeServe />,
+      },
+      {
+        path: "/EmployerZone/OurValuedClients",
+        element: <OurValuedClients />,
       },
     ],
   },
