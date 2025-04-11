@@ -1,7 +1,12 @@
 import React from "react";
-
-const EmployerFAQ = () => {
-  return <div>EmployerFAQ</div>;
+import FaqLayout from "../../layouts/FaqLayout";
+import { employerfaqs } from "../../components/data/faqs";
+const EmployerFaq = () => {
+  return (
+    <>
+      <FaqLayout data={employerfaqs} />
+    </>
+  );
 };
 
-export default EmployerFAQ;
+export default EmployerFaq;
