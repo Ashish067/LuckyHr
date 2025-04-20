@@ -16,6 +16,7 @@ import OurCoverage from "../pages/employerZone/OurCoverage";
 import IndustriesWeServe from "../pages/employerZone/IndustriesWeServe";
 import OurValuedClients from "../pages/employerZone/OurValuedClients";
 import EmployerFaq from "../pages/employerZone/EmployerFAQ";
+import JobSeekerFAQ from "../pages/jobSeekerZone/JobSeekerFAQ";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
       {
         path: "/EmployerZone/EmployerFAQ",
         element: <EmployerFaq />,
+      },
+      {
+        path: "/JobSeekersZone/JobSeekerFAQ",
+        element: <JobSeekerFAQ />,
       },
     ],
   },
